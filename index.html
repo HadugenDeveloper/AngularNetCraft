@@ -1,0 +1,64 @@
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="container" style="margin-top:5vw;">
+		<div style="margin: 0 auto;">
+			<div class="form-group row">
+				<div class="form-group col-sm-12" id="mainHeader">
+					<h1>My Playlist</h1>
+				</div>
+			</div>		
+		</div>
+		<form>
+			<div class="mainContent">				
+				<div class="form-group row">
+					<div class="form-group col-sm-12">
+						<h1>Add new artist</h1>
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="form-group col-sm-4">
+						<label for="inputName" class="col-sm-12 col-form-label">Name</label>
+						<input type="text" class="form-control" id="inputName">
+					</div>
+					<div class="form-group col-sm-4">
+						<label for="inputImage" class="col-sm-12 col-form-label">Image Url</label>
+						<input type="text" class="form-control" id="inputImage">
+					</div>
+				</div>
+				<div class="form-group row">     
+					<div class="col-sm-12">
+						<label for="inputUrl" class="col-sm-4 col-form-label">Youtube Video Url</label>
+						<input type="text" class="form-control" id="inputUrl">
+					</div>
+				</div>    
+				<div class="form-group row">
+					<div class="offset-sm-9 col-sm-3">
+						<button type="button" id="btnClear" class="btn btn-primary">Clear</button>
+						<button type="button" id="btnAddArtist" class="btn btn-primary">Add</button>
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-sm-5">
+						<span id="spnRes"></span>
+					</div>      
+				</div>				
+			</form>
+		</div>
+		<div style="margin: 0 auto;">
+			<div class="form-group row" id="videoContainer">
+				
+			</div>		
+		</div>
+		
+	</div>
+	<script type="text/javascript" src="bundle.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="./style/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
